@@ -9,12 +9,13 @@ class Emp1{
 	void show(){
 		System.out.println(name);
 		System.out.println(salary);
-		System.out.println(cname);
+		// System.out.println(cname);
 	}
 	static int add(int a,int b){
 		return a+b;
 	}
 	public static void main(String... s){
+		System.out.println(cname);
 		Emp1 e1=new Emp1();
 		System.out.println(e1); // printing refrence ID
 		e1.name="lalu";
