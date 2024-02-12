@@ -8,7 +8,7 @@ class PlaceOfService{
 		char gender=(char)g;
 
 		System.out.print("Enter your marital status(Y or N): ");
-		char m =new java.util.Scanner(System.in).next().Atchar(0);
+		char m =new java.util.Scanner(System.in).next().charAt(0);
 
 		if(gender=='f' || gender=='F'){
 			System.out.println("\nShe will work only in urban areas.");
