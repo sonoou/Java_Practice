@@ -1,0 +1,263 @@
+#####################
+#### 22 Feb 2023 ####
+#####################
+
+1.
+  Given an array arr[], the task is to find whether the array is 
+  mirror inverse. Inverse of an array means if the array elements 
+  are swapped with their corresponding indices and the array is
+  called mirror-inverse if it's inverse is equal to itself.
+  (MirrorInverse.java)
+
+  Examples:
+
+  Input: arr[] = {3,4,2,0,1}
+  Output: Yes
+  In the given array:
+  index(0) -> value(3)
+  index(1) -> value(4)
+  index(2) -> value(2)
+  index(3) -> value(0)
+  index(4) -> value(1)
+  To find the inverse of the array, swap the index and the value 
+  of the array
+  index(3) -> value(0)
+  index(4) -> value(1)
+  index(2) -> value(2)
+  index(0) -> value(3)
+  index(1) -> value(4)
+
+  Inverse arr[] = {3,4,2,0,1}
+  So, the inverse array is equal to the given array.
+
+  Input arr[] = {1,2,3,0}
+  Output: No
+
+2.
+  Convert the array in reverse order(Reverse.java)
+  Input: arr[] = {1, 3, 5, 4, 2}
+  Output: arr[] = {2, 4, 5, 3, 1}
+
+3. int max(int x[]) // Max.java
+4. int min(int x[])
+5. int max1(int x[][])
+6. int min1(int x[][])
+7. void sort(int x[])
+8. void sort1(int x[][])
+9. void mergesort(int x[], int y[])
+10. void union(int x[], int y[])
+11. void intersection(int x[], int y[])
+12. void matrixadd(int x[][], int y[][])
+13. void matrixmult(int x[][], int y[][])
+14. void matrixtranspose(int x[][])
+15. void matrixsum(int x[][])
+16. void triangleAsum(int x[][])
+17. void triangleAmax(int x[][])
+18. void triangleAmin(int x[][])
+19. void triangleBsum(int x[][])
+20. void triangleBmax(int x[][])
+21. void triangleBmin(int x[][])
+22. void shift(int x[])
+23. void frequencyCount(int x[])
+24. void firstNonRepeatingElement(int x[])
+25. void binarytodecimal(int x[])
+26. void maxinonerow(int x[][])
+27. void numtoword(int x[])
+28. void printdigonalwise(int x[][])
+29. void sequencedigonalwise(int x[][])
+30. void printtrianglewise(int x[][])
+31. void LCM(int x[])
+32. void HCF(int x[])
+33. int find3rdLargestValueInArray(int z[])(without sorting)
+34. float findMedian(int z[])
+35. float findMean(int z[])
+36. float findMode(int z[])
+37. void makeAllElementZero(int x[5][5])
+38. WAP to find Kth smallest element in unsorted Array
+    intput arr[]=()
+      K=3
+      Output=7
+    Input arr[]={7,10,4,3,20,15}
+    K=4
+    Output=10
+
+39. Given and array of elements. The task is to sort the array
+    and calculate the cumulative frequencey of each element of
+    the array.
+    Input arr[]={1,3,2,1,2,4}
+    Output
+    1->2
+    2->4
+    3->5
+    4->6
+
+    Input arr[]={1,2,1,2,1,2}
+    Output:
+    1->3
+    2->6
+
+40. Write a java programe to get the majority element from an
+    given array of integers containing duplicated. Majority
+    element: A majority element is an element that appears more
+    than n/2 where n is the size of the array.
+    input arr[]={1,1,2,3,1,5,3,1,1,1}
+    Output = 1
+
+41. Write a java programe to find the length of the longest 
+    consecutive elements seuquence from a given unsorted array of
+    integers.
+    Input arr[]={49,1,3,200,2,4,70,5}
+
+42. A unsorted array of integers is given you need to find the
+    max product formed by multiplying three numbers.(You can not
+    sort the array, watch out when there are negative numbers)
+    array[]={2,5,-2,6,-3,8,0,-7,-9,4}
+
+43. Find the numbers which is not repeated in arry of integers,
+    others are present for two times.
+    Input: 23,34,56,21,21,56,78,23,34
+
+44. Given two array sort the values of one array using the second
+    array.
+    Input: String array1[]={"a","b","c","d","e","f","g","h","i"};
+           int array2[]={0,1,1,0,1,2,2,0,1};
+    Output: {"a","d","h","b","c","e","i","f","g"}
+
+    Input: 
+    array1[]={"g","e","e","k","s","f","o","r","g","e","e","k","s"}
+    int array2[]={0,1,1,0,1,2,2,0,1};
+    Output: {"g","k","r","e","e","g","s","f","o"}
+
+45. How to find the missing number in given Array from number 1
+    to 100?
+
+46. What are jagged arrays in java?
+    Array containing arrays of different length is known as jagged
+    arrays. Multidimentional arrays are also known as jagged 
+    arrays.
+
+47. How to find all pairs on integer array whose sum is equal to
+    given number?
+
+48. Write a program to remove duplicates from array in java?
+
+49. There is an array with every element repeated twice except one
+    .Find that element?
+
+50. How to find common elements in three sorted array?
+    Given three arrays sorted in non-decreasing order. print all common elements in these arrays.
+
+    Examples:
+    input1 = {1,5,10,20,40,80}
+    input2 = {6,7,20,80,100}
+    input3 = {3,4,15,20,30,70,80,120}
+    Output: 20, 80
+
+51. How find the first repeating element in an array of integers?
+    Given an array of integers, find the first repeating element 
+    in it. We need to find the element that occurs more than once and whose index of the occurrence is smallest.
+
+    Examples: Input: array[] = {10,5,3,4,5,6}
+              Output: 5 [5 is the first element that repeats]
+
+52. How to find the smallest positive integer value that cannot be
+    represented as sum of any subset of a given array?
+    You have given a sorted array(sorted in non-decreasing order) 
+    of positive numbers. find the smallest positive integer value
+    that cannot be represented as sum of elements of any subset of
+    given set. What makes it more challenging is expected time
+    complexity of O(N).
+
+    Examples: Input = {1,3,6,10,11,15}
+              Output = 2
+
+53. How to rearrange arry in alternating positive and negative
+    negative?
+    Given an array of positive and negative numbers, arrange them
+    in an alternate fashion such that every positive number of positive number is followed by negative and vice-versa maintaining the order of appearance. Number of positive and 
+    negative numbers need not be equal. if there too appear in the
+    end of the array.
+
+    Examples: Input = { 1,2,3,-4,-1,4}
+              Output = {-4,1,-1,2,3,4}
+
+              Input = {-5,-2,5,2,4,7,1,8,0,-8}
+              Output = {-5,5,-2,2,-8,4,7,1,8,0}
+
+54. How  to find if there is a sub array with sum equal to zero?
+    Examples: Input = {4,2,-3,1,6}
+              Output = true
+            There is a sub-array with zero sum from index 1 to 3.
+
+55. How to remove duplicates from array in place?
+    Given a sorted array, remove the duplicate in place such that
+    each element appear only once and return the new length.
+    For example,
+    Given input array A = {1,1,2}
+
+    Your function should return lenth = 2, and A is now {1,2}
+
+56. How to remove a given element from array in Java?
+    In this problem you are given an array and vale remove all 
+    instances of that value in place and return the new length.
+    The order of elements can be changed. It doesn't matter what
+    you leave beyond the new length
+
+57. How to find sub array with maximum sum in an array of 
+    positive and negative number? Here you have to find the contiguous sub-array within an array (containing at least one number) which has the largest sum.
+
+    For example, given the array {-1,1,-3,4,-1,2,1,-5,4}
+    the contiguous subarray {4,-1,2,1} has the larget sum.
+
+58. How to find sub array with largest product in array of both
+    positive and negative number? to find the contiguous sub 
+    array within an array (containing at least one number) which
+    has the largest product
+
+    For example, given the array {2,3,-2,4}
+    the contiguous subarray {2,3} has the largest product = 6.
+
+59. Write a program to find length of longest consecutive 
+    sequence in array of integers? Given an unsorted array of 
+    integers, find the length of the longest consecutive elements sequence.
+    For example, Given [100, 4, 200, 1, 3, 2]
+    The longest consecutive elements sequence is [1, 2, 3, 4].
+    Return its length: 4.
+
+60. Given an array of size n and a number k, find all elements
+    that appear more than n/k times? You are given an array of
+    size n, find all elements in array the output should be [2,3].
+    Note that sie of array is 8(or n = 8), so we need to find all
+    elements that appear more than 2(or 8/4) times. There are two elements that appear more than two times, 2 and 3.
+
+    1. Return the largest sum of contiguous integers in the array
+       Example: if the input is (-10,2,3,-2,0,5,-15), the largest 
+       sum is 8
+    2. Return the sum of two largest integers in an array
+    3. Given an array of integers write a program that will 
+       determine if and two numbers add up to a specified number 
+       N.
+
+61. How to reverse array in place in Java
+
+62. Minimum Steps
+    You are currently ar cell (1,1) of an NxM grid. there is a
+    rule that decides you can move in the grid to reach the 
+    position (N,M). rule is that if you are at cell (x,y) then
+    from there you can either move to cell (x, x+y) or
+    to cell (x+y,y) in one step. your task is to find the minimum number of steps that you must take to reach cell(N,M) starting from current position A i.e (1,1)
+
+    Note: If it is not possible to reach (N,M) from(1,1), then return -1 as your output.
+
+    Input Specification: input1: An integer value representing the
+    value of N where 1<=N input2: An integer value representing the value of M where M < 106
+
+63. Write a program to print spiral of the given array
+    int arr[][]={
+                 {10,20,30},
+                 {40,50,60},
+                 {70,80,90},
+                }
+    Output = 10 20 30 60 90 80 70 40 50
+
+64. Make a TicTacToe Game
