@@ -12,9 +12,9 @@ class MatrixAdd{
 	}
 	public static void main(String... s){
 		System.out.println("Matrix A:");
-		int a[][]=Array.input2D();
+		int a[][]=Array.inputMatrix();
 		System.out.println("Matrix B:");
-		int b[][]=Array.input2D();
+		int b[][]=Array.inputMatrix();
 
 		MatrixAdd m=new MatrixAdd();
 		m.matrixadd(a,b);

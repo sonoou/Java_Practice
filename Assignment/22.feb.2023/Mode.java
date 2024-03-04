@@ -21,22 +21,38 @@ class Mode{
 			}
 			nr=true;
 		}
-		int z[yi];
+		int z[]=new int[yi];
 		int count=0;
-		System.out.println("Array element\tFrequency");
+		//System.out.println("Array element\tFrequency");
 		for(int i=0;i<yi;i++){
 			for(int j=0;j<x.length;j++){
 				if(y[i]==x[j]){
 					count++;
 				}
 			}
-			System.out.println("\t"+y[i]+"\t"+count);
+			z[i]=count;
+			//System.out.println("\t"+y[i]+"\t"+count);
 			count=0;
 		}
+
+		int max=z[0];
+		for(int i=0;i<z.length;i++){
+			if(max<z[i]){
+				max=z[i];
+			}
+		}
+
+		for(int i=0;i<y.length;i++){
+			if(z[i]==max){
+				//System.out.println("Mode is "+y[i]);
+				return y[i];
+			}
+		}
+		return 0.0f;
 	}
 	public static void main(String... s){
 		int a[]=Array.input();
 		Mode m=new Mode();
-		m.mode(a);
+		System.out.println("Mode is "+m.mode(a));
 	}
 }

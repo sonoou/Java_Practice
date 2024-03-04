@@ -2,40 +2,28 @@ class Find3rdLargestValueInArray{
 	void find3rdlargestvalueinarray(int z[]){
 		int first,second,third;
 
-		first=z[0];
+		first=0;
 		for(int i=0;i<z.length;i++){
 			if(first<z[i]){
 				first=z[i];
 			}
 		}
 
-		second=z[1];
-		for(int i=0;i<z.length;i++){
-			if(z[i]<first){
-				second=z[i];
-				break;
-			}
-		}
+		second=0;
 		for(int i=0;i<z.length;i++){
 			if(first>z[i] && second<z[i]){
 				second=z[i];
 			}
 		}
 
-		third=z[2];
-		for(int i=0;i<z.length;i++){
-			if(z[i]<first && z[i]<second){
-				third=z[i];
-				break;
-			}
-		}
+		third=0;
 		for(int i=0;i<z.length;i++){
 			if(second>z[i] && first>z[i] && third<z[i]){
 				third=z[i];
 			}
 		}
-		System.out.println("First Largest: "+first);
-		System.out.println("Second Largest: "+second);
+		//System.out.println("First Largest: "+first);
+		//System.out.println("Second Largest: "+second);
 		System.out.println("Third Largest: "+third);
 	}
 	public static void main(String... s){
