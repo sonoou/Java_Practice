@@ -1,3 +1,2 @@
 27. void numtoword(int x[])
 30. void printtrianglewise(int x[][])
-36. float findMode(int z[])

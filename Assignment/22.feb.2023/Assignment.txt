@@ -79,7 +79,7 @@
       Output=7
     Input arr[]={7,10,4,3,20,15}
     K=4
-    Output=10
+    Output=10  (KthSmallestElement)
 
 39. Given and array of elements. The task is to sort the array
     and calculate the cumulative frequencey of each element of
