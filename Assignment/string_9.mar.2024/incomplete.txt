@@ -1,0 +1,2 @@
+13. static frequencyCount(String s)//print frequency wise 
+                                     order
