@@ -1,7 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
 
 class ArrayListDemo3{
-	public static void main(String s[]){
+	public static void main(String args[]){
 		ArrayList<ArrayList> al = new ArrayList<ArrayList>();
 		ArrayList<String> als = new ArrayList<String>();
 		System.out.println(al.size());

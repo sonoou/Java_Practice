@@ -1,5 +1,8 @@
 import java.util.ArrayList;
-import java.io.*;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
 
 public class ArrayListSerialization{
 	public static void main(String args[]){
@@ -10,7 +13,7 @@ public class ArrayListSerialization{
 
 		try{
 			FileOutputStream fos = new FileOutputStream("myfile");
-			ObjectOutputStream oos=new ObjectOutputStream(fos);
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
 			oos.writeObject(al);
 			oos.close();
 			fos.close();

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student Form</title>
+    <style>
+        @import url("./css/add_details.css")
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="studentForm">
+            <h2>Add Student Details</h2>
+            <form method="post" action="AddStudentDetails">
+                <table>
+                    <tr>
+                        <td>Enter student id</td><td><input type="number" pattern="[0-9]" name="id" required></td>
+                    </tr>
+                    <tr>
+                        <td>Enter student name</td><td><input type="text" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;Enter Marks here:</td>
+                    </tr>
+                    <tr>
+                        <td>Computer</td><td><input type="number" pattern="[0-9]" name="Computer" required></td>
+                    </tr>
+                    <tr>
+                        <td>English</td><td><input type="number" pattern="[0-9]" name="English" required></td>
+                    </tr>
+                    <tr>
+                        <td>Science</td><td><input type="number" pattern="[0-9]" name="Science" required></td>
+                    </tr>
+                    <tr>
+                        <td>Math</td><td><input type="number" pattern="[0-9]" name="Math" required></td>
+                    </tr>
+                    <tr>
+                        <td>Art</td><td><input type="number" pattern="[0-9]" name="Art" required></td>
+                    </tr>
+                    <tr>
+                        <td>Hindi</td><td><input type="number" pattern="[0-9]" name="Hindi" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

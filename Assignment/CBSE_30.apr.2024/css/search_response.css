@@ -1,0 +1,51 @@
+/* CSS */
+*{
+	maring:0px;
+	padding:0px;
+	font-family: cantarell;
+	color:white;
+}
+body{
+	background:url("../img/kali-purple-16x9.png");
+	background-size:cover;
+}
+.main{
+	height:97.4vh;
+/*	border:2px solid red;*/
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#studentForm{
+	background-color:rgba(0,0,0,0.594);
+	backdrop-filter:blur(10px);
+	border:2px solid white;
+	border-radius:20px;
+	padding:10px;
+}
+#studentForm>h2{
+	text-align:center;
+}
+#studentForm input{
+	border-width:0px 0px 1px 0px;
+	width:15vw;
+	height:5vh;
+	font-size:20px;
+	padding-left:5px;
+	border-color:white;
+	background:none;
+	margin:3px 10px;
+}
+#studentForm input:focus{
+	outline:none;
+/*	outline:0;*/
+}
+#studentForm tr>td:first-child{
+	font-size:18px;
+	padding:0px 20px;
+	font-weight:bold;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+}

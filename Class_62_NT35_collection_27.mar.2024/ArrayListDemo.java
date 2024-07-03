@@ -1,18 +1,18 @@
-import java.util.*;
+import java.util.ArrayList;
 
-class ArrayListDemo{
-	public static void main(String s[]){
+public class ArrayListDemo{
+	public static void main(String args[]){
 		ArrayList<String> al = new ArrayList<String>();
-		//ArrayList al=new ArrayList();
+		//ArrayList al = new ArrayList();
 		System.out.println(al.size());
 		al.add("A");
 		al.add("B");
 		al.add("C");
 		al.add("D");
-		//al.add(10);
-		System.out.println(al.size()); // print size fo array list
-		al.remove(2); //remove element on that index
+		//al.add(10); //error
 		System.out.println(al.size());
-		System.out.println(al); // print array list
+		al.remove(2);
+		System.out.println(al.size());
+		System.out.println(al);
 	}
 }

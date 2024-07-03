@@ -10,9 +10,9 @@ class MySql{
 			String t1 = "lalu";
 			int t2 = 420;
 
-//			Statement s = c.createStatement();
-//			s.executeUpdate("create table emp162(name varchar(20),salary int)");
-//			s.close();
+			Statement s = c.createStatement();
+			s.executeUpdate("create table emp162(name varchar(20),salary int)");
+			s.close();
 			PreparedStatement ps = c.prepareStatement("insert into emp162 values(?,?)");
 			ps.setString(1,t1);
 			ps.setInt(2,t2);
