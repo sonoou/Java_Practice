@@ -1,0 +1,31 @@
+<html>
+<body>
+	<script type="text/javascript">
+		function myFunction(){
+			var form = document.form1;
+			var name = form.name.value;
+			var pass = form.pass.value;
+			if(navigator.cookieEnabled==false){
+				document.write("<h2>Please enable cookies</h2>");
+				document.close();
+			}
+			else{
+				if( name == "" || pass == "" ){
+					document.write("<h4>Enter both Username and Password</h4>");
+					document.close();
+				}
+				else{
+					return;
+				}
+			}
+		}
+	</script>
+	<form action="login" name="form1" method="post">
+		Enter the name: <input type="text" name="name">
+		<br>
+		Enter the password: <input type="password" name="pass">
+		<br>
+		<input type="submit" value="submit" onClick="myFunction()">
+	</form>
+</body>
+</html>

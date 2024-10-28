@@ -1,0 +1,26 @@
+<web-app>
+	<servlet>
+		<servlet-name>MyFilterServlet</servlet-name>
+		<servlet-class>MyFilterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyFilterServlet</servlet-name>
+		<url-pattern>/filter1</url-pattern>
+	</servlet-mapping>
+	<filter>
+		<filter-name>MyFilter</filter-name>
+		<filter-class>MyFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>MyFilter</filter-name>
+		<url-pattern>/filter1</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>MyFilter1</filter-name>
+		<filter-class>MyFilter1</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>MyFilter1</filter-name>
+		<url-pattern>/filter1</url-pattern>
+	</filter-mapping>
+</web-app>

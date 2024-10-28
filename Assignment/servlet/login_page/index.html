@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+	<script type="text/javascript">
+		window.history.forward();
+		function noBack(){
+			window.history.forward();
+		}
+	</script>
+</head>
+<body onload="noBack();" onpageshow="if (even.persisted) noBack(); onunload="">
+	<form method="post" action="login">
+		<table>
+			<tr>
+				<input type="checkbox" name="cooky" value="yes"/>Stay signed in
+			<tr>
+			<tr>
+				<td><h2>Login</h2></td>
+			</tr>
+			<tr>
+				<td>Username</td>
+				<td><input type="text" name="userId" value=""/><td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="pass" value=""/></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+				<input type="submit" name="login" value="login"/>
+			</tr>
+			<tr>
+				<td colspan="2">
+				<a href="register.html"
+			</tr>
+		</table>
+	</form>   
+</body>
+</html>

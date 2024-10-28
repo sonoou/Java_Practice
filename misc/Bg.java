@@ -1,5 +1,7 @@
 class Bg{
 	public static void main(String... s){
+		System.out.println("Foreground: \\033[38;5;im");
+		System.out.println("Background: \\033[48;5;im");
         System.out.print("Foreground(3) or Background(4): ");
 		int n=new java.util.Scanner(System.in).nextInt();
 		for(int i=0;i<=255;i++){
