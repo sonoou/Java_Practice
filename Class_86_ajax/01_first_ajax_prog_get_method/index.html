@@ -1,0 +1,24 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<h2>AJAX</h2>
+		<button type="button" onclick="myfunction()">Request data</button>
+		<div id="myDiv"></div>
+		<script>
+			function myfunction(){
+				var xmlhttp;
+				xmlhttp = new XMLHttpRequest();
+				xmlhttp.onreadystatechange = function(){
+					if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+						let mydiv = document.querySelector("#mydiv");
+						mydiv.innerHTML = xmlhttp.responseText;
+					}
+				}
+				xmlhttp.open("GET","demo1?name1=lalu&name2=rabari",true);
+				xmlhttp.send();
+			}
+		</script>
+	</body>
+</html>

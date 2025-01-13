@@ -6,10 +6,12 @@ import java.sql.*;
 public class WelcomeServlet extends HttpServlet{
 	public void service(HttpServletRequest req,HttpServletResponse res)throws ServletException, IOException{
 		res.setContentType("text/html");
-		PrintWriter out = res.getWriter();
-		out.println("<html><body>");
-		String name = req.getParameter("name");
-		out.println("welcome = "+name);
-		out.println("</body></html>");
+		HttpSession se = req.getSession(false);
+		if(se == null){
+			res.setHeader("Refresh","4;login.htm");
+		}
+		else{
+			res.setHeader("Refresh","4;welcome.html");
+		}
 	}
 }

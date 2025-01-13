@@ -19,6 +19,7 @@ public class LoginFilter implements Filter{
 			String s1 = "select * from emp101 where name='"+name+"' and pass='"+pass+"'";
 			ResultSet rs = s.executeQuery(s1);
 			if(rs.next()){
+				HttpSession se = req.getSession();
 				chain.doFilter(req,res);
 			}
 			else{

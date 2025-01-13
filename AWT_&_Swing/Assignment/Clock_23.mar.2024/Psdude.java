@@ -80,7 +80,7 @@ public class Psdude extends JPanel implements Runnable{
 		g.fillOval(749,154,10,10);
 		g.fillOval(698,213,10,10);
 		g.fillOval(808,213,10,10);
-		g.drawLine(753,160,700,220);
+		g.drawLine(753,sdf160,700,220);
 		g.drawLine(754,161,701,221);
 		g.drawLine(753,160,815,220);
 		g.drawLine(752,159,814,219);

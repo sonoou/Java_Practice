@@ -6,8 +6,11 @@ class PostgreSql{
 		try{
 			Class.forName("org.postgresql.Driver");
 			Connection c=DriverManager.getConnection("jdbc:postgresql://localhost:5432/testpost","sonu","15061999");
-			String t1="virat";
-			int t2=100000;
+
+			System.out.print("Enter your name: ");
+			String t1 = new java.util.Scanner(System.in).nextLine();
+			System.out.print("Enter your salary: ");
+			int t2 = new java.util.Scanner(System.in).nextInt();
 
 			Statement s=c.createStatement();
 			//s.executeUpdate("create table emp162(name varchar(20),salary int)");
@@ -16,7 +19,7 @@ class PostgreSql{
 			ps.setInt(2,t2);
 			ps.executeUpdate();
 			ps.close();
-			
+
 			ResultSet result1=s.executeQuery("select * from emp162");
 
 			while(result1.next()){
