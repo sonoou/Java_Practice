@@ -1,5 +1,0 @@
-27. A B C D E
-     B     D
-      C   C
-       D C
-        A
