@@ -27,7 +27,7 @@
 
 20. static boolean equals(String s1, String s2)
 21. static void triangle1(String s)
-		a
+        a
         ap
         app
         apps
@@ -45,7 +45,7 @@
         apps
         app
         ap
-		a
+	a
 21. static void triangle3(String s)
         appsquadz
          ppsquadz

@@ -1,9 +1,9 @@
 class FrequencyCount{
-	static void frequencyCount(String s){
-		char ch[] = new char[s.length];
-		int scount=0;
+	public static void frequencyCount(String s){
+		char ch[] = new char[s.length()];
 		int c=0;
-		for(int i=1;i<s.length();i++){
+		int i = 1;
+		for(i=1;i<s.length();i++){
 			if(s.charAt(i)==s.charAt(i-1)){
 				continue;
 			}
@@ -13,8 +13,15 @@ class FrequencyCount{
 			}
 		}
 		ch[c] = s.charAt(i-1);
-
-		for(int i=0;i<c;
+		for(i=0;i<c;i++){
+			int scount=0;
+			for(int j=0; j<s.length(); j++){
+				if(ch[i] == s.charAt(j)){
+					scount++;
+				}
+			}
+			System.out.println(ch[i]+" -> "+scount);
+		}
 	}
 	public static void main(String s[]){
 		System.out.print("Enter a string: ");

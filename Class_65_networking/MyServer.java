@@ -23,9 +23,11 @@ public class MyServer{
 			System.out.println(e);
 		}
 	}
+
 	public static void main(String args[]){
 		new MyServer();
 	}
+  
 	class MyThread implements Runnable{
 		Socket s;
 		ArrayList al;

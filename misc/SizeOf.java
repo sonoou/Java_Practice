@@ -1,19 +1,13 @@
 class SizeOf{
-	public static void main(String args[]){
-		Boolean bool = true;
-		Byte b = 10; // 1 byte
-		Short s = 10; // 2 bytes
- 		Integer i = 10; // 4 bytes
-		Long l = 10L; // 8 bytes
-		Float f = 10.3f; // 4 bytes
-		Double d = 10.3434D; // 8 bytes
-
-		System.out.println("Size of boolean: "+(bool.SIZE/8));
-		System.out.println("Size of byte: "+(b.SIZE/8)+" byte");
-		System.out.println("Size of short: "+(s.SIZE/8)+" bytes");
-		System.out.println("Size of int: "+(i.SIZE/8)+" bytes");
-		System.out.println("Size of long: "+(l.SIZE/8)+" bytes");
-		System.out.println("Size of float: "+(f.SIZE/8)+" bytes");
-		System.out.println("Size of double: "+(d.SIZE/8)+" bytes");
+	public static void main(String args[])
+{		System.out.println("Size of byte: "+(Byte.SIZE/8)+" byte");
+		System.out.println("Size of short: "+(Short.SIZE/8)+" bytes");
+		System.out.println("Size of int: "+(Integer.SIZE/8)+" bytes");
+		System.out.println("Size of long: "+(Long.SIZE/8)+" bytes");
+		System.out.println("Size of char: "+(Character.SIZE/8)+" bytes");
+		System.out.println("Size of float: "+(Float.SIZE/8)+" bytes");
+		System.out.println("Size of double: "+(Double.SIZE/8)+" bytes\n");
+		System.out.println("Size of boolean: not specified by the Java spec\nThe spec (§4.2.1) only guarantees that a boolean can hold the values true and\nfalse; its physical size is JVM‑dependent, so Java doesn’t expose it via a\nconstant.\n");
+		System.out.println("https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.2.1");
 	}
 }

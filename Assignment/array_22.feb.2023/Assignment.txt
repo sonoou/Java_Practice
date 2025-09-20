@@ -2,8 +2,7 @@
 #### 22 Feb 2023 ####
 #####################
 
-1.
-  Given an array arr[], the task is to find whether the array is 
+1.Given an array arr[], the task is to find whether the array is 
   mirror inverse. Inverse of an array means if the array elements 
   are swapped with their corresponding indices and the array is
   called mirror-inverse if it's inverse is equal to itself.
@@ -113,12 +112,11 @@
     sort the array, watch out when there are negative numbers)
     array[]={2,5,-2,6,-3,8,0,-7,-9,4}
 
-43. Find the numbers which is not repeated in arry of integers,
+43. Find the numbers which is not repeated in array of integers,
     others are present for two times.
     Input: 23,34,56,21,21,56,78,23,34
 
-44. Given two array sort the values of one array using the second
-    array.
+44. Given two array sort the values of one array using the second array.
     Input: String array1[]={"a","b","c","d","e","f","g","h","i"};
            int array2[]={0,1,1,0,1,2,2,0,1};
     Output: {"a","d","h","b","c","e","i","f","g"}
@@ -126,26 +124,25 @@
     Input: 
     array1[]={"g","e","e","k","s","f","o","r","g","e","e","k","s"}
     int array2[]={0,1,1,0,1,2,2,0,1};
-    Output: {"g","k","r","e","e","g","s","f","o"}
+    Output: {"g","k","r","e","e","s","g","f","o"}
 
-45. How to find the missing number in given Array from number 1
-    to 100?
+45. How to find the missing number in given Array from number 1 to 100?
 
 46. What are jagged arrays in java?
-    Array containing arrays of different length is known as jagged
-    arrays. Multidimentional arrays are also known as jagged 
-    arrays.
+    Array containing arrays of different length is known as jagged arrays. 
+    Multidimentional arrays are also known as jagged arrays.
 
-47. How to find all pairs on integer array whose sum is equal to
-    given number?
+47. How to find all pairs on integer array whose sum is equal to given 
+    number?
 
 48. Write a program to remove duplicates from array in java?
 
-49. There is an array with every element repeated twice except one
-    .Find that element?
+49. There is an array with every element repeated twice except one. Find 
+    that element?
 
-50. How to find common elements in three sorted array?
-    Given three arrays sorted in non-decreasing order. print all common elements in these arrays.
+50. How to find common elements in three sorted array? Given three arrays 
+    sorted in non-decreasing order. print all common elements in these 
+    arrays.
 
     Examples:
     input1 = {1,5,10,20,40,80}
@@ -153,30 +150,30 @@
     input3 = {3,4,15,20,30,70,80,120}
     Output: 20, 80
 
-51. How find the first repeating element in an array of integers?
-    Given an array of integers, find the first repeating element 
-    in it. We need to find the element that occurs more than once and whose index of the occurrence is smallest.
+51. How find the first repeating element in an array of integers? Given an 
+    array of integers, find the first repeating element in it. We need to 
+    find the element that occurs more than once and whose index of the 
+    occurrence is smallest.
 
     Examples: Input: array[] = {10,5,3,4,5,6}
               Output: 5 [5 is the first element that repeats]
 
-52. How to find the smallest positive integer value that cannot be
-    represented as sum of any subset of a given array?
-    You have given a sorted array(sorted in non-decreasing order) 
-    of positive numbers. find the smallest positive integer value
-    that cannot be represented as sum of elements of any subset of
-    given set. What makes it more challenging is expected time
-    complexity of O(N).
+52. How to find the smallest positive integer value that cannot be 
+    represented as sum of any subset of a given array? You have given a 
+    sorted array(sorted in non-decreasing order) of positive numbers. find 
+    the smallest positive integer value that cannot be represented as sum of 
+    elements of any subset of given set. What makes it more challenging is 
+    expected time complexity of O(N).
 
     Examples: Input = {1,3,6,10,11,15}
               Output = 2
 
-53. How to rearrange arry in alternating positive and negative
-    negative?
-    Given an array of positive and negative numbers, arrange them
-    in an alternate fashion such that every positive number of positive number is followed by negative and vice-versa maintaining the order of appearance. Number of positive and 
-    negative numbers need not be equal. if there too appear in the
-    end of the array.
+53. How to rearrange array in alternating positive and negative?
+    Given an array of positive and negative numbers, arrange them in an 
+    alternate fashion such that every positive number of positive number is 
+    followed by negative and vice-versa maintaining the order of appearance. 
+    Number of positive and negative numbers need not be equal. if there too 
+    appear in the end of the array.
 
     Examples: Input = { 1,2,3,-4,-1,4}
               Output = {-4,1,-1,2,3,4}
@@ -203,8 +200,9 @@
     The order of elements can be changed. It doesn't matter what
     you leave beyond the new length
 
-57. How to find sub array with maximum sum in an array of 
-    positive and negative number? Here you have to find the contiguous sub-array within an array (containing at least one number) which has the largest sum.
+57. How to find sub array with maximum sum in an array of positive and 
+    negative number? Here you have to find the contiguous sub-array within 
+    an array (containing at least one number) which has the largest sum.
 
     For example, given the array {-1,1,-3,4,-1,2,1,-5,4}
     the contiguous subarray {4,-1,2,1} has the larget sum.
@@ -261,3 +259,4 @@
     Output = 10 20 30 60 90 80 70 40 50
 
 64. Make a TicTacToe Game
+

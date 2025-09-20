@@ -2,7 +2,7 @@
 #### Date - unknown ####
 ########################
 
-1. How to find middle element of a singlt linked list in one pass?
+1. How to find middle element of a single linked list in one pass?
 
 2. How to check if linked list contains loop in Java? How to find
    the starting node of the loop
@@ -23,10 +23,11 @@
 
 9. How to find the length of a singly linked list in Java?
 
-10. Write code to print out the data stored in each node in a singly linked list?
+10. Write code to print out the data stored in each node in a singly 
+    linked list?
 
-11. Write a Program to print a linked list in reverse order? E.g. Print linked 
-    list from tail to head?
+11. Write a Program to print a linked list in reverse order? E.g. 
+    Print linked list from tail to head?
 
 12. How to delete a node from a Singly linked list in O(1) time?
 
@@ -54,15 +55,17 @@
 
 24. How do you find the sum of two linked list using stack in java?
 
-25. How do you convert a sorted doubly linked list to a balanced binary search 
-    tree in java?
+25. How do you convert a sorted doubly linked list to a balanced 
+    binary search tree in java?
 
-26. How do you calculate the sum of two linked list using recursion in Java?
+26. How do you calculate the sum of two linked list using recursion in 
+    Java?
 
 27. How do implement LRU cache in Java using linked list?
 
 28. How to add an element in the middle of a linked list in Java?
 
-29. How do you reverse every alternate k nodes of a linked list in Java?
+29. How do you reverse every alternate k nodes of a linked list in 
+    Java?
 
 30. How do you add two numbers represented using linked list in java?
