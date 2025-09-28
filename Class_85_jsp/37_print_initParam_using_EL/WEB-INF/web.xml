@@ -1,0 +1,6 @@
+<web-app>
+	<context-param>
+		<param-name>email</param-name>
+		<param-value>Hello@xyz.com</param-value>
+	</context-param>
+</web-app>

@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+		<servlet-name>HiddenFormFieldServlet</servlet-name>
+		<servlet-class>HiddenFormFieldServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HiddenFormFieldServlet</servlet-name>
+		<url-pattern>/login2</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DemoServlet</servlet-name>
+		<servlet-class>DemoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DemoServlet</servlet-name>
+		<url-pattern>/demo</url-pattern>
+	</servlet-mapping>
+</web-app>

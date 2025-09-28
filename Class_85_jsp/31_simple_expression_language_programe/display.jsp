@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<title>Display</title>
+	</head>
+	<body>
+		${applicationScope.author}
+		<br>
+		${applicationScope.Site}
+	</body>
+</html>

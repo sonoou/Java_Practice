@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>PagingServlet</servlet-name>
+		<servlet-class>PagingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PagingServlet</servlet-name>
+		<url-pattern>/ps</url-pattern>
+	</servlet-mapping>
+</web-app>

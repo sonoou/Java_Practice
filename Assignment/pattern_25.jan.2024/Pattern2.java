@@ -1,0 +1,21 @@
+class Pattern2{
+	int n;
+
+	void input(){
+		System.out.print("Enter a number: ");
+		n=new java.util.Scanner(System.in).nextInt();
+	}
+	void print(){
+		for(int i=1;i<=n;i++){
+			System.out.println();
+			for(int j=i;j<=n;j++){
+				System.out.print("\033[1;38;5;"+i+"m* ");
+			}
+		}
+	}
+	public static void main(String... s){
+		Pattern2 p=new Pattern2();
+		p.input();
+		p.print();
+	}
+}

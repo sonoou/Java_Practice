@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<form name="myform">
+			<select name="sele" onchange="loadXMLDoc()">
+				<option>value</option>
+				<option value="65">65</option>
+				<option value="25">25</option>
+			</select>
+		</form>
+		id:<span id="a"></span><br>
+		First name: <span id="b"></span><br>
+		Age: <span id="c"></span><br>
+		<script>
+			function loadXMLDoc(){
+				var xmlhttp;
+				var keys = document.myform.sele.value;
+				var urls = `db.jsp?ok=${keys}`;
+				xmlhttp = new XMLHttpRequest();
+				xmlhttp.onreadystatechange = function(){
+					if(xmlhttp.readyState == 4){
+						var some = xmlhttp.responseXML.documentElement;
+						document.querySelector("#a").innerHTML=some.getElementsByTagName("stdid")[0].childNodes[0].nodeValue;
+				document.querySelector("#b").innerHTML=some.getElementsByTagName("stdfirstname")[0].firstChild.nodeValue;
+						document.querySelector("#c").innerHTML=some.getElementsByTagName("stdage")[0].firstChild.nodeValue;
+					}
+				}
+				xmlhttp.open("GET",urls,true);
+				xmlhttp.send();
+			}		
+		</script>
+	</body>
+</html>

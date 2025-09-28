@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		Enter name: <input type="text" name="id2" id="id2" onkeyup="loadXMLDoc()">
+		<span id="err" style="color:red"></span>
+		<script>
+			function loadXMLDoc(){
+				var xmlhttp;
+				var k = document.querySelector("#id2").value;
+				var urls = `db.jsp?ver=${k}`;
+				xmlhttp = new XMLHttpRequest();
+				xmlhttp.onreadystatechange = function(){
+					if(xmlhttp.readyState == 4){
+						let err = document.querySelector("#err");
+						let response = xmlhttp.responseText;
+						if(response.includes("valid")){
+							err.style.color = "green";
+							err.innerHTML = response;
+						}
+						else{
+							err.style.color = "red";
+							err.innerHTML = response;
+						}
+					}
+				}
+				xmlhttp.open("GET",urls,true);
+				xmlhttp.send();
+			}
+		</script>
+	</body>
+</html>

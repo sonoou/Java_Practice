@@ -1,0 +1,3 @@
+class Bike{
+	String color;
+}

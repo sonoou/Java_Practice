@@ -1,0 +1,151 @@
+#####################
+#### 16 Feb 2024 ####
+#####################
+
+1. EEEEE    2. 12345    3. ABCDE    4. 11111
+   DDDD        1234        FGHI        0000
+   CCC         123         JKL         111
+   BB          12          MN          00
+   A           1           O           1
+
+5. 10101     6. 10101    7. *****    8.     1
+   1010         0101        1234           12
+   101          010         ***           123
+   10           01          12           1234
+   1            1           *           12345
+
+ 9.     1   10.     1   11.     1   12.     A
+       21          23          32          AB
+      321         345         543         ABC
+     4321        4567        7654        ABCD
+    54321       56789       98765       ABCDE
+
+13. A       14.     1       15.     A       16.     E
+    BB             321             BBB             DDD
+    CCC           54321           CCCCC           CCCCC
+    DDDD         7654321         DDDDDDD         BBBBBBB
+    EEEEE       987654321       EEEEEEEEE       AAAAAAAAA
+
+17.     A        18.              1               19.     1
+       BCD                     2  3  4                   123
+      EFGHI                 5  6  7  8  9               12345
+     JKLMNOP            10 11 12 13 14 15 16           1234567
+    QRSTUVWXYZ       17 18 19 20 21 22 23 24 25       123456789
+
+20.     1       21.     1       22.     0       23.     A
+       121             232             101             ABA
+      12321           34543           21012           ABCBA
+     1234321         4567654         3210123         ABCDCBA
+    123454321       567898765       432101234       ABCDEDCBA
+
+24.     A       25.     *       26.     *       27. A B C D E
+       BCB             abc             ***           B     D
+      CDEDC           *****           *****           C   C
+     DEFGFED         abcdefg         *******           D B
+    EFGHIHGFE       *********       *********           A
+
+28. *********
+     *******
+      *****
+       ***
+        *
+
+WEBKUL - Interview Question Paper
+
+1. n always from 5(or greater).
+
+Similarly if user 
+input is 5.(n = 5)                  if user input is 7.(n = 7)
+Output:-                            Output:-
+
+      *                                    *
+     ***                                  ***
+    *****                                *****
+    @   @                               *******
+    @   @                               @     @
+    @   @                               @     @
+    @ * @                               @     @
+    @***@                               @     @
+    *****                               @  *  @
+                                        @ *** @
+                                        @*****@
+                                        *******
+
+2. n should always start n>=2.
+
+Let say if user 
+input is 2.(n = 2)                  If user input is 3.(n = 3)
+Output:-                            Output:-
+@                                   @
+@                                   @
+@**                                 @
+  **@                               @***
+    @                                  ***
+    @                                    ***@
+                                            @
+                                            @
+                                            @
+
+If user input is 4.(n = 4)
+Output:-
+@
+@
+@
+@
+@****
+    ****
+       ****
+          ****@
+              @
+              @
+              @
+              @
+
+3. n should always start n>=2.
+
+Let say if user 
+input is 2.(n = 2)                 If user input is 3.(n = 3)
+Output:-                           Output:-
+@**                                @***
+@ **@                              @  ***
+@   @                              @    ***@
+    @                              @       @
+                                           @
+                                           @
+If user input is 4.(n = 4)
+Output:-
+@****
+@   ****
+@      ****
+@         ****@
+@             @
+              @
+              @
+              @
+
+4. Let say if user
+input is 2.(n = 2)                  If user input is 4.(n = 4)
+Output:-                            Output:- 
+@                                   @
+@** @                               @
+@ **@                               @****
+    @                               @   ****      @
+                                    @      ****   @
+                                              ****@
+                                                  @
+                                                  @
+
+If user input is 6.(n = 6)
+Output:-
+@
+@
+@
+@******
+@     ******
+@          ******                @
+@               ******           @
+                     *******     @
+                           ******@
+                                 @
+                                 @
+                                 @

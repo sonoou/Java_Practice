@@ -1,0 +1,2 @@
+2. public static void printPatternX(int size)  // 'X' from 'A' to
+   ..., size is a positive interger.

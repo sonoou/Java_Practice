@@ -1,0 +1,16 @@
+27. void numtoword(int x[])
+
+42. A unsorted array of integers is given you need to find the
+    max product formed by multiplying three numbers.(You can not
+    sort the array, watch out when there are negative numbers)
+    array[]={2,5,-2,6,-3,8,0,-7,-9,4}
+
+52. How to find the smallest positive integer value that cannot be 
+    represented as sum of any subset of a given array? You have given a 
+    sorted array(sorted in non-decreasing order) of positive numbers. find 
+    the smallest positive integer value that cannot be represented as sum of 
+    elements of any subset of given set. What makes it more challenging is 
+    expected time complexity of O(N).
+
+    Examples: Input = {1,3,6,10,11,15}
+              Output = 2

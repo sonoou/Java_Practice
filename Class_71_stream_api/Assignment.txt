@@ -1,0 +1,5 @@
+get data from a file 
+count word frequency
+then sort by frequency
+if the frequency is same then
+compare by word
